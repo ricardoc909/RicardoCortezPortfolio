@@ -10,3 +10,163 @@
     z-index: 1000; /* Ensure the header stays above other content */
     /* Add any other styles you want for the sticky header */
 }
+/* styles.css */
+
+/* Header */
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+}
+section {
+    border: 2px solid dodgerblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+/* About Me Section */
+#about-me {
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+
+#about-me img {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add some space between the text and the image */
+}
+
+/* Projects and Skills Sections */
+#projects {
+    display: grid;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+
+}
+/* Skills Icons */
+#skills {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#skills li i {
+    font-size: 5em; /* 5 times bigger */
+    color: dodgerblue;
+    transition: color 0.3s; /* Smooth transition for color change */
+    display: block; /* Display icons as blocks */
+    margin-bottom: 10px; /* Add some space below each icon */
+    
+}
+
+#skills li span {
+    font-size: 1em
+}
+
+/* Social Media Icons */
+#social-media-icons a {
+    color: dodgerblue;
+    font-size: 36px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+#social-media-icons a:hover {
+    color: darkblue;
+}
+div {
+    border: 3px solid navy;
+    border-radius: 8px;
+    width: 300px;
+    padding: 10px;
+}
+div img {
+    display: block;
+    margin: 0 auto;
+    
+}
+/* Form styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto; /* Center the form horizontally */
+    max-width: 500px; /* Limit the width of the form */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
