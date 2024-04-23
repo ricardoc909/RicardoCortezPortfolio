@@ -127,46 +127,5 @@ div img {
     margin: 0 auto;
     
 }
-/* Form styles */
-form {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin: auto; /* Center the form horizontally */
-    max-width: 500px; /* Limit the width of the form */
-}
 
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid dodgerblue;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-textarea {
-    resize: vertical;
-}
-
-input[type="submit"] {
-    background-color: dodgerblue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: darkblue;
-}
 
