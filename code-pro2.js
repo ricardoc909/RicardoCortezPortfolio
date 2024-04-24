@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     customCursor.style.zIndex = '9999';
     document.body.appendChild(customCursor);
 
-    // Update custom cursor position based on mouse movement
+    // Update custom cursor position based on mouse movements
     document.addEventListener('mousemove', function(event) {
         customCursor.style.left = event.clientX + 'px';
         customCursor.style.top = event.clientY + 'px';
